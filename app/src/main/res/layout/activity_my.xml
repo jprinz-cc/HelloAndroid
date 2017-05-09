@@ -11,29 +11,29 @@
     tools:context="com.example.jprinz.helloandroid.MyActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Kitty!"
-        android:id="@+id/textView" />
+        android:text="@string/textView" />
 
     <Button
-        android:text="Button"
+        android:text="@string/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:onClick="topClick"
         android:layout_below="@+id/textView"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
 
     <Button
-        android:text="Button"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:onClick="bottomClick"
         android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:onClick="bottomClick"
+        android:text="@string/button2" />
 
 </RelativeLayout>

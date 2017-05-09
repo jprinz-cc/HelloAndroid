@@ -32,7 +32,6 @@ public class MyActivity extends AppCompatActivity {
         Log.i("info", "The user clicked the top button");
     }
 
-    public boolean onCreateOpationsMenu (Menu menu) {
-        return true;
-    }
+
+    // TODO: The flashing pid bug might be caused by the code below!
 }
